@@ -7,3 +7,36 @@ Servidor: Servidor pode ser caracterizado como um sistema computacional, virtual
 A relação está principalmente no fato de que, com o surgimento da LGPD, o setor de Data Centers passa a ter que cumprir com certas exigências com relação ao tratamento adequado dos dados da população, haja vista que o mesmo também é responsável por armazenar dados. Nesse sentido, é primordial a proteção e segurança dos dados por parte dos Data Centers, respeitando todas as exigências da LGPD que busca justamente a garantia da segurança dos dados de cada indivíduo.
 Formatos abertos é uma especificação técnica utilizada para armazenamento de dados digitais, sem qualquer restrição legal para uso. Portanto, aqui nos formatos abertos, é possível acessar os dados no futuro, e não permite que apenas um único fabricante detenha controle de um formato proprietário. Temos como exemplo o HTML5, desenvolvido de forma transparente e coletivo. Já no formato proprietário, estamos falando do interesse privado, portanto, as informações que estão armazenadas no software podem ser perdidas em caso de descontinuação do mesmo. Temos como exemplo: DWG; SWF;DOC;PPT...
 Nesse caso, apesar dos dados serem públicos, eles devem ser tratados com cuidado, isso porque os dados não podem comprometer a privacidade das pessoas, principalmente com relação a informações sensíveis. As pessoas devem ser protegidas de situações como roubo de identidade e divulgação de informações confidenciais. Nesse sentido surge a LGPD buscando garantir a segurança dos dados da população. Dado público não significa dado sem pertencimento e não significa dado de domínio público. 
+
+3 TRABALHO
+1.	Python:
+Python é uma linguagem de programação de alto nível, conhecida por sua sintaxe simples e legível.
+Essa linguagem é amplamente utilizada em desenvolvimento web, ciência de dados, automação de tarefas e inteligência artificial.
+A linguagem python suporta múltiplos paradigmas de programação, incluindo orientação a objetos, imperativo e funcional.
+
+>>> numero1 = 10
+>>> numero2 = 20
+>>> soma = numero1 + numero2
+>>> print("A soma é:",soma)
+A soma é: 30
+
+2.	Ruby:
+É conhecido como uma linguagem "orientada à felicidade do programador", onde a facilidade de uso e a expressividade são prioridades. 
+Possui uma sintaxe mais concisa e expressiva, enfatizando a legibilidade e a felicidade do programador. Usa palavras-chave em inglês e tem uma forte influência da linguagem natural.
+Oferece recursos poderosos de metaprogramação, permitindo que os programas modifiquem e estendam a si mesmos em tempo de execução.
+
+puts "Fluminense"
+Fluminense
+
+3.	JavaScript:
+JavaScript é uma linguagem de programação de alto nível, interpretada e amplamente utilizada no desenvolvimento web.
+Originalmente concebida para interações em páginas web, JavaScript agora é usada tanto no lado do cliente (navegador) quanto no lado do servidor (Node.js).
+JavaScript é essencial para criar páginas web interativas e dinâmicas, além de aplicativos web full-stack e aplicativos móveis.
+
+var numero1 = 20
+var numero2 = 40
+var soma = numero1 + numero2
+console.log("A soma é:", soma)
+console.log("Fluminense")
+A soma é: 60
+Fluminense
