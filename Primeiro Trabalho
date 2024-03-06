@@ -12,7 +12,7 @@ Nesse caso, apesar dos dados serem públicos, eles devem ser tratados com cuidad
 1.	Python:
 Python é uma linguagem de programação de alto nível, conhecida por sua sintaxe simples e legível.
 Essa linguagem é amplamente utilizada em desenvolvimento web, ciência de dados, automação de tarefas e inteligência artificial.
-A linguagem python suporta múltiplos paradigmas de programação, incluindo orientação a objetos, imperativo e funcional.
+Além disso, suporta múltiplos paradigmas de programação, incluindo orientação a objetos, imperativo e funcional.
 
 >>> numero1 = 10
 >>> numero2 = 20
@@ -23,15 +23,15 @@ A soma é: 30
 2.	Ruby:
 É conhecido como uma linguagem "orientada à felicidade do programador", onde a facilidade de uso e a expressividade são prioridades. 
 Possui uma sintaxe mais concisa e expressiva, enfatizando a legibilidade e a felicidade do programador. Usa palavras-chave em inglês e tem uma forte influência da linguagem natural.
-Oferece recursos poderosos de metaprogramação, permitindo que os programas modifiquem e estendam a si mesmos em tempo de execução.
+A linguagem ainda possui um recurso de metaprogramação, permitindo que os programas modifiquem e estendam a si mesmos em tempo de execução.
 
 puts "Fluminense"
 Fluminense
 
 3.	JavaScript:
 JavaScript é uma linguagem de programação de alto nível, interpretada e amplamente utilizada no desenvolvimento web.
-Originalmente concebida para interações em páginas web, JavaScript agora é usada tanto no lado do cliente (navegador) quanto no lado do servidor (Node.js).
-JavaScript é essencial para criar páginas web interativas e dinâmicas, além de aplicativos web full-stack e aplicativos móveis.
+É usada tanto para interações em páginas web quanto no lado do cliente (navegador) e ainda no lado do servidor (Node.js).
+Além disso, é essencial para criar páginas web interativas e dinâmicas, além de aplicativos web full-stack e aplicativos móveis.
 
 var numero1 = 20
 var numero2 = 40
