@@ -132,3 +132,45 @@ print("Vogais na palavra/frase:", imprimir_vogais(palavra))
 Vogais na palavra/frase: uieeooau
 
 [Execution complete with exit code 0]
+
+SEXTO TRABALHO
+
+numeros = [20, 40, 60, 80]
+frase = "Fluminense é gigante"
+palavra = "Python"
+
+media = sum(numeros) / len(numeros)
+print("Média aritmética dos números:", media)
+
+num_quadrado = numeros[0]
+quadrado = num_quadrado ** 2
+print("Quadrado de", num_quadrado, ":", quadrado)
+
+num_dobro = numeros[1]
+dobro = num_dobro * 2
+print("Dobro de", num_dobro, ":", dobro)
+
+qtd_letras = len(palavra)
+print("Quantidade de letras na palavra:", qtd_letras)
+
+qtd_espacos = frase.count(' ')
+print("Quantidade de espaços em branco na frase:", qtd_espacos)
+
+primeiro_numero = numeros[0]
+segundo_numero = numeros[1]
+if primeiro_numero > segundo_numero:
+    print("O primeiro número é maior que o segundo.")
+else:
+    print("O primeiro número não é maior que o segundo.")
+
+maior_numero = max(numeros)
+print("O maior número é:", maior_numero)
+
+Média aritmética dos números: 50.0
+Quadrado de 60 : 3600
+Dobro de 40 : 80
+Quantidade de letras na palavra: 6
+Quantidade de espaços em branco na frase: 2
+O primeiro número não é maior que o segundo.
+O maior número é: 80
+
