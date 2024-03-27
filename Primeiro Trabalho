@@ -174,3 +174,52 @@ Quantidade de espaços em branco na frase: 2
 O primeiro número não é maior que o segundo.
 O maior número é: 80
 
+SÉTIMO TRABALHO
+
+def soma_media(lista):
+    soma = sum(lista)
+    media = soma / len(lista)
+    return soma, media
+
+def substituir_palavra(lista, palavra_antiga, palavra_nova):
+    nova_lista = [palavra_nova if palavra == palavra_antiga else palavra for palavra in lista]
+    return nova_lista
+
+def gerar_triangulo(num_linhas):
+    for i in range(1, num_linhas + 1):
+        print('*' * i)
+
+    
+lista_numeros = [10, 20, 30, 40]
+soma, media = soma_media(lista_numeros)
+print("Soma:", soma)
+print("Média:", media)
+
+lista_palavras = ["Fluminense", "Football", "Club"]
+palavra_antiga = "Fluminense"
+palavra_nova = "Fluzão"
+nova_lista_palavras = substituir_palavra(lista_palavras, palavra_antiga, palavra_nova)
+print("Lista alterada:", nova_lista_palavras)
+
+num_linhas = 10
+print("Triângulo de asteriscos:")
+gerar_triangulo(num_linhas)
+
+Soma: 100
+Média: 25.0
+Lista alterada: ['Fluzão', 'Football', 'Club']
+Triângulo de asteriscos:
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+
+
+
+
