@@ -220,6 +220,40 @@ Triângulo de asteriscos:
 *********
 **********
 
+OITAVO TRABALHO
+
+Escreva uma função que continue a pedir a ousuario para digitar nomes até que o nome "sair" seja digitado. 
+Ao final, o programa deve imprimir todos os nomes digitados, cada um em uma linha.
+
+
+def pedir_nomes():
+    nomes = []
+    while True:
+        nome = input("Nathan(ou 'sair' para sair): ")
+        if nome.lower() == 'sair':
+            break
+        nomes.append(nome)
+    
+    print("Nomes digitados:")
+    for nome in nomes:
+        print(nome)
+
+
+pedir_nomes()
+
+Digite um nome (ou 'sair' para sair): 
+==================== RESTART: C:/Users/202102468728/trab1.py ===================
+Digite um nome (ou 'sair' para sair): 
+==================== RESTART: C:/Users/202102468728/trab1.py ===================
+Murilo (ou 'sair' para sair): 
+==================== RESTART: C:/Users/202102468728/trab1.py ===================
+Kadu(ou 'sair' para sair): 
+==================== RESTART: C:/Users/202102468728/trab1.py ===================
+Medina(ou 'sair' para sair): 
+==================== RESTART: C:/Users/202102468728/trab1.py ===================
+Nathan(ou 'sair' para sair): 
+
+
 
 
 
