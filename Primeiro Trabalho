@@ -358,6 +358,106 @@ Medina(ou 'sair' para sair):
 ==================== RESTART: C:/Users/202102468728/trab1.py ===================
 Nathan(ou 'sair' para sair): 
 
+NONO TRABALHO
+
+Escreva uma função que pede que o usuário informe seu nome pelo 
+teclado e grave essa informação em um arquivo de texto
+
+def gravar_nome_em_arquivo():
+    nome = input("Digite seu nome: ")
+    with open("nome.txt", "w") as arquivo:
+        arquivo.write(nome)
+
+# Exemplo de uso da função
+gravar_nome_em_arquivo()
+
+================== RESTART: C:/Users/202102468728/aulanove.py ==================
+Digite seu nome: 
+
+2) Escreva uma função que peça ao usuário o nome de um arquivo de 
+texto e imprima o seu conteúdo. Obs.: considere que o usuário 
+sempre informa o nome de um arquivo que existente.
+
+def imprimir_conteudo_do_arquivo():
+    nome_arquivo = input("Digite o nome do arquivo de texto: ")
+    with open(nome_arquivo, "r") as arquivo:
+        conteudo = arquivo.read()
+        print("Conteúdo do arquivo", nome_arquivo + ":")
+        print(conteudo)
+
+imprimir_conteudo_do_arquivo()
+
+================== RESTART: C:/Users/202102468728/aulanove.py ==================
+Digite o nome do arquivo de texto: 
+
+3) Escreva uma função que leia o conteúdo do arquivo de exemplo e o 
+escreva em um novo arquivo
+
+def copiar_conteudo_do_arquivo():
+    
+    nome_arquivo_origem = "novo_arquivo.txt"
+
+
+    nome_arquivo_destino = "novo_arquivo1.txt"
+
+    try:
+        
+        with open(nome_arquivo_origem, "r") as arquivo_origem:
+           
+            conteudo = arquivo_origem.read()
+
+            
+            with open(nome_arquivo_destino, "w") as arquivo_destino:
+                
+                arquivo_destino.write(conteudo)
+
+        print("Conteúdo copiado com sucesso para", nome_arquivo_destino)
+
+    except FileNotFoundError:
+        print("O arquivo de exemplo não foi encontrado.")
+    except Exception as e:
+        print("Ocorreu um erro ao copiar o conteúdo:", e)
+
+
+copiar_conteudo_do_arquivo()
+
+================== RESTART: C:/Users/202102468728/aulanove.py ==================
+Conteúdo copiado com sucesso para novo_arquivo1.txt
+
+
+Escreva uma função que peça ao usuário um número, percorra o 
+arquivo de exemplo, e escreva na tela o nome correspondente ao 
+número
+
+ef encontrar_nome_por_numero():
+    numero_procurado = input("Digite um número: ")
+
+    try:
+        with open("novo_arquivo1.txt", "r") as arquivo:
+            linhas = arquivo.readlines()
+
+            encontrado = False
+            for linha in linhas:
+                partes = linha.strip().split(",")
+                if partes[0] == numero_procurado:
+                    print("O nome correspondente ao número", numero_procurado, "é:", partes[1])
+                    encontrado = True
+                    break
+
+            if not encontrado:
+                print("Número não encontrado no arquivo.")
+
+    except FileNotFoundError:
+        print("O arquivo de exemplo não foi encontrado.")
+    except Exception as e:
+        print("Ocorreu um erro ao procurar o número:", e)
+
+encontrar_nome_por_numero()
+
+============= RESTART: C:/Users/202102468728/Downloads/aulanovee.py ============
+Digite um número: 
+
+
 
 
 
